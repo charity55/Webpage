@@ -1,1 +1,238 @@
-# Webpage
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>charity</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        header {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+        nav {
+            background-color: #444;
+            text-align: center;
+            padding: 10px;
+        }
+        nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+        }
+        main {
+            padding: 20px;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+        }
+        table, th, td {
+            border: 1px solid #ddd;
+        }
+        th, td {
+            padding: 8px;
+            text-align: left;
+        }        
+        @media (max-width: 768px) {
+            nav {
+                display: block;
+            }
+            nav a {
+                display: block;
+                margin: 10px 0;
+            }
+            table {
+                font-size: 14px;
+            }
+        }
+        form {
+            background-color: #f4f4f4;
+            padding: 20px;
+            border-radius: 8px;
+        }
+        input, select, textarea {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+        button {
+            background-color: #4CAF50;
+            color: black;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+<body>
+    <header>          
+        <img src="/storage/emulated/0/Pictures/facebook/1740697839758.jpg" align="right" height="50" width="50"> 
+        <h1>GEMSTONE WIKIPEDIA</h1>
+        <p>Here, you will discover deffirent types of gemstones,their variations,their histories,and how they became the gemstones,that worth millions.</p>
+    </header>
+    <nav>
+        <a href="#">home</a>
+        <a href="#">about</a>
+                <a href="#">contact</a>
+    </nav>
+    <main>
+        <section> 
+        <img id="gemstones" src="/storage/emulated/0/Pictures/Messenger/Messenger_creation_5696A029-DC46-4104-90A4-89EE99C7094E.jpeg"height="300" width="300"/>
+            <h2>GEMSTONES</h2>
+            <p>Gemstones are naturally occurring minerals or rocks that are prized for their beauty, rarity, and durability. Often used in jewelry, they have been admired and valued by cultures throughout history. These precious stones, such as diamonds, rubies, sapphires, and emeralds, are not only symbols of wealth and luxury but also of deep cultural and spiritual significance. Gemstones form under extreme conditions deep within the Earth, over millions of years, giving each one unique properties and characteristics. Beyond their aesthetic appeal, gemstones are also believed to hold metaphysical properties, offering protection, healing, and energy to those who wear them. Whether cut and polished or in their raw form, gemstones continue to captivate people worldwide, making them a timeless symbol of elegance and wonder..</p>
+            <p>Throughout history, gemstones have played a significant role in various cultures and traditions, often being used in rituals, ceremonies, and as symbols of power and status. From the ancient Egyptians' reverence for lapis lazuli to the Hindu tradition of associating gemstones with chakras and spiritual growth, these precious stones have been imbued with meaning and significance. Today, gemstones continue to inspire and influence art, fashion, and design, ensuring their allure and fascination will endure for generations to come.
+The allure of gemstones has also led to significant advancements in science and technology. Gemstone cutting and polishing techniques have evolved over centuries, allowing for the creation of intricate and exquisite designs. Furthermore, the study of gemstones has contributed to our understanding of geology, mineralogy, and the Earth's formation. As our knowledge and appreciation of gemstones continue to grow, so does their value and significance in our lives.
+
+In addition to their cultural, historical, and scientific significance, gemstones also hold a special place in many people's personal lives. They are often used to commemorate milestones, such as engagements, weddings, and anniversaries. Gemstones are also used in healing practices, such as Reiki and crystal healing, where they are believed to possess energies that can balance and harmonize the body, mind, and spirit. Whether used in jewelry, decoration, or healing, gemstones continue to captivate and inspire us, reminding us of their timeless beauty and significance.</p>
+        </section>
+        <section>
+            <img src="/storage/emulated/0/Pictures/Messenger/Messenger_creation_4A19E028-6AFE-4E51-B085-C1F785032CCB.jpeg" width="340" height="300">
+            <h2>Image Example</h2>
+            <p>The majestic Blue Diamond, one of the rarest and most valuable gemstones, undergoes a meticulous process to become a stunning piece of jewelry. This process begins with the mining of the Blue Diamond, typically from depths of over 100 miles beneath the earth's surface. After being extracted, the rough Blue Diamond is carefully transported to a cutting facility, where it is examined by skilled gemologists to determine its optimal cut.
+Next, the Blue Diamond is carefully cut and polished to bring out its vibrant blue color and exceptional clarity. This process involves the use of advanced computer-aided design software and precision cutting tools to maximize the diamond's brilliance and fire. The cutting process can take several weeks or even months, depending on the complexity of the cut and the desired level of precision.
+Once the Blue Diamond has been cut and polished, it is then set into a platinum or gold setting, often accompanied by smaller diamonds or other precious gemstones. The setting is carefully designed to showcase the Blue Diamond's exceptional beauty, with intricate details and precise craftsmanship. For instance, the famous "Heart of Fire" Blue Diamond necklace, valued at over $18 million, features a stunning 18k white gold setting adorned with smaller diamonds and a delicate filigree pattern.
+The finished piece of jewelry is a true masterpiece, showcasing the Blue Diamond's exceptional beauty and craftsmanship. Whether it's a necklace, ring, or earrings, the Blue Diamond is sure to make a statement, with its vibrant blue color and exceptional clarity. As one of the rarest and most valuable gemstones, the Blue Diamond is a true treasure, coveted by collectors and connoisseurs worldwide. </p>
+        </section>
+        <section>
+            <h2>gemstones</h2>
+             <h3>from the most valuable to least valuable</h3>
+            <table>
+                <thead>
+                    <tr>
+                        <th>name</th>
+                        <th>carats</th>
+                        <th>place of discovery</th>
+                        <th>value per carats</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>diamonds</td>
+                        <td>0.5-20 carrats</td>
+                        <td>south africa,russia,<br>canda,australia</td>
+                        <td>$3,000-$10,000</td>
+                    </tr>
+                    <tr>
+                        <td>ruby</td>
+                        <td>0.5-10 carats</td>
+                        <td>myanmar(burma),<br>thailand,<br>cambodia</td>
+                        <td>$500-$10,000</td>                        
+                    </tr>
+                    <tr>
+                        <td>sapphire</td>
+                        <td>0.5-10 carats</td>
+                        <td>Myanmar (Burma),<br> Sri Lanka, Madagascar</td>
+                        <td>$300-$6,000</td>
+                    </tr>
+                    <tr>
+                        <td>emerald</td>
+                        <td>0.5-10 carats</td>
+                        <td>Colombia, Brazil,                   Zambia</td>
+                        <td>$200-$4,000</td>
+                    </tr>
+                    <tr>
+                        <td>tanzanite</td>
+                        <td>0.5-10 carats</td>
+                        <td>Tanzania</td>
+                        <td>$100-$2,000</td>
+                    </tr>
+                     <tr>
+                        <td>alexandrite</td>
+                        <td>0.5-5 carats</td>
+                        <td>Russia, Sri Lanka</td>
+                         <td>$50-$1,500</td>
+                    </tr>
+                    <tr>
+                        <td>opal</td>
+                        <td>0.5-10 carats</td>
+                        <td>Australia, Mexico</td>
+                        <td>$20-$1,000</td>
+                    </tr>
+                    <tr>
+                        <td>garnet</td>
+                        <td>0.5-10 carats</td>
+                        <td>India, Africa, Sri Lanka</td>
+                        <td>$10-$500</td>
+                    </tr>
+                     <tr>
+                        <td>peridot</td>
+                        <td>0.5-10 carats</td>
+                        <td>Egypt, Myanmar (Burma), China</td>
+                        <td>$5-$200</td>
+                    </tr>
+                     <tr>
+                        <td>topaz</td>
+                        <td>0.5-10 carats</td>
+                        <td>Brazil, Mexico, Africa</td>
+                        <td>$3-$100</td>
+                    </tr>
+                     <tr>
+                        <td>citrine</td>
+                        <td>0.5-10 carats</td>
+                        <td>Brazil, Spain, Africa</td>
+                        <td>$2-$50</td>
+                    </tr>
+                    <tr>
+                        <td>Amethyst</td>
+                        <td>0.5-10 carats</td>
+                        <td>Brazil, Uruguay, Russia</td>
+                        <td>$1-$30</td>
+                    <tr>
+                        <td>Turquoise</td>
+                        <td>0.5-5 carats</td>
+                        <td>Iran, Egypt, China</td>
+                        <td>$0.50-$20</td>
+                    </tr>
+                     <tr>
+                       <td>Jade</td> 
+                       <td>0.5-10 carats</td>
+                       <td> Myanmar (Burma), China, New Zealand</td>
+                       <td>$0.30-$15 </td>                        
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+        <section>
+            <h2>Contact Form</h2            
+            <form action="#" method="post">
+                <label for="name">Your Name:</label>
+                <input type="text" id="name" name="name" required>                
+                <label for="email">Your Email:</label>
+                <input type="email" id="email" name="email" required>
+                <label for="message">Your Message:</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+                <button type="submit">Submit</button>
+            </form>
+        </section>
+        <section>
+            <h2>Video Embed</h2>
+            <iframe width="100%" height="315" src="https://youtube.com/embed/kqa09KH4weQ?si=gSz2TlC11A7GJxPi" title="gemstones documentary" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <p>This is a sample embedded YouTube video. Replace the link with any other video URL to embed a different video.</p>
+        </section>
+    </main>
+        <footer>
+        <p>&copy; 2025 GEMSTONESWIKIPEDIA.com</p>
+    </footer>
+</body>
+</html>
